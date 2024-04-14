@@ -1,0 +1,3407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1329</width>
+    <height>873</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>元素周期表</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{
+	font: 12pt &quot;微软雅黑&quot;;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="sizeConstraint">
+     <enum>QLayout::SetDefaultConstraint</enum>
+    </property>
+    <property name="leftMargin">
+     <number>5</number>
+    </property>
+    <property name="topMargin">
+     <number>5</number>
+    </property>
+    <property name="rightMargin">
+     <number>5</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="nature_tab">
+       <attribute name="title">
+        <string notr="true">性质</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <property name="sizeConstraint">
+         <enum>QLayout::SetDefaultConstraint</enum>
+        </property>
+        <item>
+         <layout class="QGridLayout" name="gridLayout" rowstretch="1,1,1,1,1,1,1,1,1,1,1" columnstretch="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" rowminimumheight="1,1,1,1,1,1,1,1,1,1,1" columnminimumwidth="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1">
+          <property name="sizeConstraint">
+           <enum>QLayout::SetFixedSize</enum>
+          </property>
+          <property name="spacing">
+           <number>1</number>
+          </property>
+          <item row="0" column="2">
+           <widget class="QLabel" name="group_2">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>2</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="9" column="8">
+           <widget class="QPushButton" name="pushButton_Pm">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">钷</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QPushButton" name="pushButton_Li">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">锂</string>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="15">
+           <widget class="QPushButton" name="pushButton_Bi">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">铋</string>
+            </property>
+           </widget>
+          </item>
+          <item row="9" column="6">
+           <widget class="QPushButton" name="pushButton_Pr">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string>镨</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="18">
+           <widget class="QPushButton" name="pushButton_Ne">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">氖</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="18">
+           <widget class="QPushButton" name="pushButton_Xe">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">氙</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="13">
+           <widget class="QPushButton" name="pushButton_In">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">铟</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="16">
+           <widget class="QPushButton" name="pushButton_Se">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">硒</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="3">
+           <widget class="QPushButton" name="pushButton_Y">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">钇</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="8">
+           <widget class="QPushButton" name="pushButton_Fe">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">铁</string>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="5">
+           <widget class="QPushButton" name="pushButton_Db">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">𬭊</string>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="13">
+           <widget class="QPushButton" name="pushButton_Nh">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">鿭</string>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="16">
+           <widget class="QPushButton" name="pushButton_Lv">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">𫟷</string>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="5">
+           <widget class="QPushButton" name="pushButton_Ta">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">钽</string>
+            </property>
+           </widget>
+          </item>
+          <item row="9" column="5">
+           <widget class="QPushButton" name="pushButton_Ce">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">铈</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="18">
+           <widget class="QLabel" name="group_18">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>18</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="17">
+           <widget class="QPushButton" name="pushButton_Cl">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">氯</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="14">
+           <widget class="QPushButton" name="pushButton_C">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">碳</string>
+            </property>
+           </widget>
+          </item>
+          <item row="9" column="7">
+           <widget class="QPushButton" name="pushButton_Nd">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">钕</string>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="10">
+           <widget class="QPushButton" name="pushButton_Pt">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">铂</string>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="3">
+           <widget class="QPushButton" name="pushButton_actinicles">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">锕系元素</string>
+            </property>
+            <property name="range" stdset="0">
+             <string notr="true">89~103</string>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="8">
+           <widget class="QPushButton" name="pushButton_Os">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">锇</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="7">
+           <widget class="QPushButton" name="pushButton_Mn">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">锰</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="15">
+           <widget class="QPushButton" name="pushButton_N">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">氮</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="14">
+           <widget class="QLabel" name="group_14">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>14</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="12">
+           <widget class="QPushButton" name="pushButton_Zn">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">锌</string>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="6">
+           <widget class="QPushButton" name="pushButton_Sg">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">𬭳</string>
+            </property>
+           </widget>
+          </item>
+          <item row="9" column="16">
+           <widget class="QPushButton" name="pushButton_Tm">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">铥</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="18">
+           <widget class="QPushButton" name="pushButton_He">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">氦</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="1">
+           <widget class="QPushButton" name="pushButton_Na">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">钠</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="15">
+           <widget class="QPushButton" name="pushButton_Sb">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">锑</string>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="14">
+           <widget class="QPushButton" name="pushButton_FI">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">𫓧</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="7">
+           <widget class="QLabel" name="group_6">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>7</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLabel" name="group_1">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>1</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="17">
+           <widget class="QPushButton" name="pushButton_Ts">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">鿬</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="17">
+           <widget class="QPushButton" name="pushButton_F">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">氟</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="1">
+           <widget class="QPushButton" name="pushButton_Rb">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">铷</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="16">
+           <widget class="QLabel" name="group_16">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>16</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="14">
+           <widget class="QPushButton" name="pushButton_Sn">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">锡</string>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="11">
+           <widget class="QPushButton" name="pushButton_Rg">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">𬬭</string>
+            </property>
+           </widget>
+          </item>
+          <item row="9" column="11">
+           <widget class="QPushButton" name="pushButton_Gd">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">钆</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="9">
+           <widget class="QLabel" name="group_9">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>9</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="9" column="10">
+           <widget class="QPushButton" name="pushButton_Eu">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">铕</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="11">
+           <widget class="QPushButton" name="pushButton_Cu">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">铜</string>
+            </property>
+           </widget>
+          </item>
+          <item row="9" column="9">
+           <widget class="QPushButton" name="pushButton_Sm">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">钐</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="10">
+           <widget class="QPushButton" name="pushButton_Pd">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">钯</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="6">
+           <widget class="QLabel" name="group_8">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>6</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="9" column="4">
+           <widget class="QPushButton" name="pushButton_La">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">镧</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="16">
+           <widget class="QLabel" name="chalcogen_label">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>氧族</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QPushButton" name="pushButton_H">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">氢</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="2">
+           <widget class="QPushButton" name="pushButton_Mg">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">镁</string>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="1">
+           <widget class="QPushButton" name="pushButton_Fr">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">钫</string>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="6">
+           <widget class="QPushButton" name="pushButton_W">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">钨</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="6">
+           <widget class="QPushButton" name="pushButton_Cr">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">铬</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="16">
+           <widget class="QPushButton" name="pushButton_Te">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">碲</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="12">
+           <widget class="QPushButton" name="pushButton_Cd">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">镉</string>
+            </property>
+           </widget>
+          </item>
+          <item row="9" column="12">
+           <widget class="QPushButton" name="pushButton_Tb">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">铽</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="5">
+           <widget class="QLabel" name="group_5">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>5</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="9">
+           <widget class="QPushButton" name="pushButton_Mt">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">鿏</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="18">
+           <widget class="QPushButton" name="pushButton_Ar">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">氩</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="6">
+           <widget class="QPushButton" name="pushButton_Mo">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">钼</string>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="15">
+           <widget class="QPushButton" name="pushButton_Mc">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">镆</string>
+            </property>
+           </widget>
+          </item>
+          <item row="9" column="17">
+           <widget class="QPushButton" name="pushButton_Yb">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">镱</string>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="14">
+           <widget class="QPushButton" name="pushButton_Pb">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">铅</string>
+            </property>
+           </widget>
+          </item>
+          <item row="9" column="13">
+           <widget class="QPushButton" name="pushButton_Dy">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">镝</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="17">
+           <widget class="QLabel" name="group_17">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>17</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="3">
+           <widget class="QPushButton" name="pushButton_Sc">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">钪</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="10">
+           <widget class="QLabel" name="group_10">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>10</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="13">
+           <widget class="QLabel" name="group_13">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>13</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="4">
+           <widget class="QPushButton" name="pushButton_Ti">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">钛</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="10">
+           <widget class="QPushButton" name="pushButton_Ni">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">镍</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="2">
+           <widget class="QPushButton" name="pushButton_Be">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">铍</string>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="0">
+           <widget class="QLabel" name="periodic_6">
+            <property name="minimumSize">
+             <size>
+              <width>15</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>15</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>6</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="4">
+           <widget class="QPushButton" name="pushButton_Hf">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">铪</string>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="1">
+           <widget class="QPushButton" name="pushButton_Cs">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">铯</string>
+            </property>
+           </widget>
+          </item>
+          <item row="9" column="15">
+           <widget class="QPushButton" name="pushButton_Er">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">铒</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="13">
+           <widget class="QPushButton" name="pushButton_B">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">硼</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="13">
+           <widget class="QPushButton" name="pushButton_Al">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">铝</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="15">
+           <widget class="QLabel" name="group_15">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>15</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="10">
+           <widget class="QPushButton" name="pushButton_Ds">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">𫟼</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="9">
+           <widget class="QPushButton" name="pushButton_Rh">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">铑</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="5">
+           <widget class="QPushButton" name="pushButton_V">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">钒</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="13">
+           <widget class="QPushButton" name="pushButton_Ga">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">镓</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="4">
+           <widget class="QPushButton" name="pushButton_Zr">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">锆</string>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="7">
+           <widget class="QPushButton" name="pushButton_Re">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">铼</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="15">
+           <widget class="QPushButton" name="pushButton_P">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">磷</string>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="3">
+           <widget class="QPushButton" name="pushButton_lanthanide">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">镧系元素</string>
+            </property>
+            <property name="range" stdset="0">
+             <string notr="true">57~71</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="11">
+           <widget class="QLabel" name="group_11">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>11</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="14">
+           <widget class="QPushButton" name="pushButton_Ge">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">锗</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="12">
+           <widget class="QLabel" name="label_18">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>12</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="2">
+           <widget class="QPushButton" name="pushButton_Ca">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">钙</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="3">
+           <widget class="QLabel" name="group_3">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>3</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="14">
+           <widget class="QPushButton" name="pushButton_Si">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">硅</string>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="17">
+           <widget class="QPushButton" name="pushButton_At">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">砹</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="16">
+           <widget class="QPushButton" name="pushButton_O">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">氧</string>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="18">
+           <widget class="QPushButton" name="pushButton_Og">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">鿫</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="periodic_1">
+            <property name="minimumSize">
+             <size>
+              <width>15</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>15</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>1</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QLabel" name="periodic_3">
+            <property name="minimumSize">
+             <size>
+              <width>15</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>15</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>3</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="9">
+           <widget class="QPushButton" name="pushButton_Ir">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">铱</string>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="12">
+           <widget class="QPushButton" name="pushButton_Cn">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">鿔</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="9">
+           <widget class="QPushButton" name="pushButton_Co">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">钴</string>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="11">
+           <widget class="QPushButton" name="pushButton_Au">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">金</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="0">
+           <widget class="QLabel" name="periodic_5">
+            <property name="minimumSize">
+             <size>
+              <width>15</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>15</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>5</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="11">
+           <widget class="QPushButton" name="pushButton_Ag">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">银</string>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="18">
+           <widget class="QPushButton" name="pushButton_Rn">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">氡</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="17">
+           <widget class="QPushButton" name="pushButton_I">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">碘</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="7">
+           <widget class="QPushButton" name="pushButton_Tc">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">锝</string>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="7">
+           <widget class="QPushButton" name="pushButton_Bh">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">𬭛</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="15">
+           <widget class="QLabel" name="nitrogen_group_label">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>氮族</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="9" column="14">
+           <widget class="QPushButton" name="pushButton_Ho">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">钬</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="8">
+           <widget class="QPushButton" name="pushButton_Ru">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">钌</string>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="8">
+           <widget class="QPushButton" name="pushButton_Hs">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">𬭶</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="17">
+           <widget class="QPushButton" name="pushButton_Br">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">溴</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="5">
+           <widget class="QPushButton" name="pushButton_Nb">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">铌</string>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="4">
+           <widget class="QPushButton" name="pushButton_Rf">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">𬬻</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="4">
+           <widget class="QLabel" name="group_4">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>4</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="13">
+           <widget class="QPushButton" name="pushButton_TI">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">铊</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="17">
+           <widget class="QLabel" name="halogen_label">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>卤族</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="periodic_2">
+            <property name="minimumSize">
+             <size>
+              <width>15</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>15</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>2</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="16">
+           <widget class="QPushButton" name="pushButton_Po">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">钋</string>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="2">
+           <widget class="QPushButton" name="pushButton_Ra">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">镭</string>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="0">
+           <widget class="QLabel" name="periodic_7">
+            <property name="minimumSize">
+             <size>
+              <width>15</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>15</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>7</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="16">
+           <widget class="QPushButton" name="pushButton_S">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">硫</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="8">
+           <widget class="QLabel" name="group_7">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>8</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="18">
+           <widget class="QPushButton" name="pushButton_Kr">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">氪</string>
+            </property>
+           </widget>
+          </item>
+          <item row="9" column="18">
+           <widget class="QPushButton" name="pushButton_Lu">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">镥</string>
+            </property>
+           </widget>
+          </item>
+          <item row="9" column="1" colspan="3">
+           <spacer name="horizontalSpacer">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="6" column="2">
+           <widget class="QPushButton" name="pushButton_Sr">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">锶</string>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="12">
+           <widget class="QPushButton" name="pushButton_Hg">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">汞</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="15">
+           <widget class="QPushButton" name="pushButton_As">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">砷</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="0">
+           <widget class="QLabel" name="periodic_4">
+            <property name="minimumSize">
+             <size>
+              <width>15</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>15</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>4</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="2">
+           <widget class="QPushButton" name="pushButton_Ba">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">钡</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="1">
+           <widget class="QPushButton" name="pushButton_K">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">钾</string>
+            </property>
+           </widget>
+          </item>
+          <item row="10" column="18">
+           <widget class="QPushButton" name="pushButton_Lr">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">铹</string>
+            </property>
+           </widget>
+          </item>
+          <item row="10" column="17">
+           <widget class="QPushButton" name="pushButton_No">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">锘</string>
+            </property>
+           </widget>
+          </item>
+          <item row="10" column="16">
+           <widget class="QPushButton" name="pushButton_Md">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">钔</string>
+            </property>
+           </widget>
+          </item>
+          <item row="10" column="15">
+           <widget class="QPushButton" name="pushButton_Fm">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">镄</string>
+            </property>
+           </widget>
+          </item>
+          <item row="10" column="14">
+           <widget class="QPushButton" name="pushButton_Es">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">锿</string>
+            </property>
+           </widget>
+          </item>
+          <item row="10" column="13">
+           <widget class="QPushButton" name="pushButton_Cf">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">锎</string>
+            </property>
+           </widget>
+          </item>
+          <item row="10" column="12">
+           <widget class="QPushButton" name="pushButton_Bk">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">锫</string>
+            </property>
+           </widget>
+          </item>
+          <item row="10" column="11">
+           <widget class="QPushButton" name="pushButton_Cm">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">锔</string>
+            </property>
+           </widget>
+          </item>
+          <item row="10" column="10">
+           <widget class="QPushButton" name="pushButton_Am">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">镅</string>
+            </property>
+           </widget>
+          </item>
+          <item row="10" column="9">
+           <widget class="QPushButton" name="pushButton_Pu">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">钚</string>
+            </property>
+           </widget>
+          </item>
+          <item row="10" column="8">
+           <widget class="QPushButton" name="pushButton_Np">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">镎</string>
+            </property>
+           </widget>
+          </item>
+          <item row="10" column="7">
+           <widget class="QPushButton" name="pushButton_U">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">铀</string>
+            </property>
+           </widget>
+          </item>
+          <item row="10" column="6">
+           <widget class="QPushButton" name="pushButton_Pa">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">镤</string>
+            </property>
+           </widget>
+          </item>
+          <item row="10" column="5">
+           <widget class="QPushButton" name="pushButton_Th">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">钍</string>
+            </property>
+           </widget>
+          </item>
+          <item row="10" column="4">
+           <widget class="QPushButton" name="pushButton_Ac">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="name" stdset="0">
+             <string notr="true">锕</string>
+            </property>
+           </widget>
+          </item>
+          <item row="10" column="1" colspan="3">
+           <spacer name="horizontalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="9" column="0">
+           <widget class="QLabel" name="periodic_6_1">
+            <property name="minimumSize">
+             <size>
+              <width>15</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>15</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>6</string>
+            </property>
+           </widget>
+          </item>
+          <item row="10" column="0">
+           <widget class="QLabel" name="periodic_7_1">
+            <property name="minimumSize">
+             <size>
+              <width>15</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>15</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>7</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1329</width>
+     <height>27</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
