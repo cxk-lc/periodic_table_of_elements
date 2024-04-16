@@ -37,7 +37,6 @@ class PeriodicTableElementsMainWindow(QMainWindow):
         # 初始化界面
         self.ui.setupUi(self)
 
-
         # 按钮颜色、样式
         self.elements_status_color = elements_status_color
         self.elements_type_color = elements_type_color
@@ -105,7 +104,6 @@ class PeriodicTableElementsMainWindow(QMainWindow):
                 partial(self.Las_and_Acs_switch, Las_Acs)
             )
 
-
     def Las_and_Acs_switch(self, Las_Acs):
         for button in self.Las_and_Acs_buttons.get(Las_Acs):
             if button.isHidden():
@@ -136,9 +134,9 @@ class PeriodicTableElementsMainWindow(QMainWindow):
 
     def create_Las_and_Acs_spacer(self):
         self.ui.hSpacerLas = QSpacerItem(40, 20, QSizePolicy.Expanding,
-                                                 QSizePolicy.Minimum)
+                                         QSizePolicy.Minimum)
         self.ui.hSpacerAcs = QSpacerItem(40, 20, QSizePolicy.Expanding,
-                                              QSizePolicy.Minimum)
+                                         QSizePolicy.Minimum)
 
     def create_periodic_Las_and_Acs_label(self, element_type):
         label_text = {
@@ -162,7 +160,6 @@ class PeriodicTableElementsMainWindow(QMainWindow):
         exec(f'ui.{obj_name}.hide()')
         exec(f'self.Las_and_Acs_periodic["{element_type}"]=ui.{obj_name}')
 
-
     def main_elements_button(self, element):
         ui = self.ui
         element_symbol = element.element_symbol
@@ -178,7 +175,8 @@ class PeriodicTableElementsMainWindow(QMainWindow):
         if element_type in self.Las_and_Acs_type:
             exec(f'ui.{obj_name}.setProperty("type", "{element_type}")')
             exec(f'ui.{obj_name}.hide()')
-            exec(f'self.Las_and_Acs_buttons.get(element_type).append(ui.{obj_name})')
+            exec(
+                f'self.Las_and_Acs_buttons.get(element_type).append(ui.{obj_name})')
 
     def fill_elements_button(self):
         # 将各元素按钮填充到 gridLayout 布局中
@@ -187,13 +185,13 @@ class PeriodicTableElementsMainWindow(QMainWindow):
         self.fill_main_buttons(row_num, col_num)
 
         self.ui.gridLayout.addItem(self.ui.hSpacerLas, row_num, 1, 1, 3)
-        self.ui.gridLayout.addItem(self.ui.hSpacerAcs, row_num+1, 1, 1, 3)
+        self.ui.gridLayout.addItem(self.ui.hSpacerAcs, row_num + 1, 1, 1, 3)
         self.ui.gridLayout.addWidget(self.Las_and_Acs_periodic.get('镧系元素'),
                                      row_num, 0, 1, 1)
         self.ui.gridLayout.addWidget(self.Las_and_Acs_periodic.get('锕系元素'),
-                                     row_num+1, 0, 1, 1)
+                                     row_num + 1, 0, 1, 1)
         self.fill_Las_and_Acs(row_num, col_num, '镧系元素')
-        self.fill_Las_and_Acs(row_num+1, col_num, '锕系元素')
+        self.fill_Las_and_Acs(row_num + 1, col_num, '锕系元素')
 
     def fill_Las_and_Acs(self, row_num, col_num, element_type):
         elements = self.connect_sqlite.get_element_data_by_type(element_type)
@@ -229,7 +227,6 @@ class PeriodicTableElementsMainWindow(QMainWindow):
                         self.ui.gridLayout.addWidget(button, row, col, 1, 1)
                 count += 1
 
-
     def create_Las_and_Acs_switch_buttons(self, LasOrAcs: str):
         # 创建镧系元素和锕系元素显示开关
         e_type = {
@@ -252,7 +249,6 @@ class PeriodicTableElementsMainWindow(QMainWindow):
         exec(f'ui.{obj_name}.setProperty("range", "{e_range}")')
         exec(f'ui.{obj_name}.setText("{LasOrAcs}")')
         exec(f'self.Las_and_Acs_switch_buttons["{LasOrAcs}"]=ui.{obj_name}')
-
 
     def init_button_info(self):
         # 初始化按钮的显示的文本内容以及显示样式
